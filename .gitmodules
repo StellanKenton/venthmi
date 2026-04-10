@@ -1,0 +1,3 @@
+[submodule "rei"]
+	path = rei
+	url = https://github.com/StellanKenton/rei.git
