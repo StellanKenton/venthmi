@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rumi/space/venthmi/rei/tools/ringbuffer/ringbuffer.cpp
+ringbuffer.hpp
+/home/rumi/space/venthmi/rei/tools/ringbuffer/ringbuffer.hpp
+algorithm
+-
+atomic
+-
+cstring
+-
+
+/home/rumi/space/venthmi/rei/tools/ringbuffer/ringbuffer.hpp
+cstddef
+-
+cstdint
+-
+span
+-
+

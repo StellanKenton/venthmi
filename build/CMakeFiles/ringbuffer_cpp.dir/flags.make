@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++2a
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rumi/space/venthmi 
+CXX_INCLUDES = -I/home/rumi/space/venthmi/rei/tools/ringbuffer 
 

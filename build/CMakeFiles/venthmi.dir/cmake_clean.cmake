@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/venthmi.dir/src/main.cpp.o"
+  "CMakeFiles/venthmi.dir/rei/hard/serial/serial.cpp.o"
+  "CMakeFiles/venthmi.dir/rei/tools/ringbuffer/ringbuffer.cpp.o"
   "venthmi.pdb"
   "venthmi"
 )

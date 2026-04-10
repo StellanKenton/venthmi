@@ -123,6 +123,60 @@ venthmi/fast:
 	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/build
 .PHONY : venthmi/fast
 
+rei/hard/serial/serial.o: rei/hard/serial/serial.cpp.o
+
+.PHONY : rei/hard/serial/serial.o
+
+# target to build an object file
+rei/hard/serial/serial.cpp.o:
+	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/rei/hard/serial/serial.cpp.o
+.PHONY : rei/hard/serial/serial.cpp.o
+
+rei/hard/serial/serial.i: rei/hard/serial/serial.cpp.i
+
+.PHONY : rei/hard/serial/serial.i
+
+# target to preprocess a source file
+rei/hard/serial/serial.cpp.i:
+	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/rei/hard/serial/serial.cpp.i
+.PHONY : rei/hard/serial/serial.cpp.i
+
+rei/hard/serial/serial.s: rei/hard/serial/serial.cpp.s
+
+.PHONY : rei/hard/serial/serial.s
+
+# target to generate assembly for a file
+rei/hard/serial/serial.cpp.s:
+	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/rei/hard/serial/serial.cpp.s
+.PHONY : rei/hard/serial/serial.cpp.s
+
+rei/tools/ringbuffer/ringbuffer.o: rei/tools/ringbuffer/ringbuffer.cpp.o
+
+.PHONY : rei/tools/ringbuffer/ringbuffer.o
+
+# target to build an object file
+rei/tools/ringbuffer/ringbuffer.cpp.o:
+	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/rei/tools/ringbuffer/ringbuffer.cpp.o
+.PHONY : rei/tools/ringbuffer/ringbuffer.cpp.o
+
+rei/tools/ringbuffer/ringbuffer.i: rei/tools/ringbuffer/ringbuffer.cpp.i
+
+.PHONY : rei/tools/ringbuffer/ringbuffer.i
+
+# target to preprocess a source file
+rei/tools/ringbuffer/ringbuffer.cpp.i:
+	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/rei/tools/ringbuffer/ringbuffer.cpp.i
+.PHONY : rei/tools/ringbuffer/ringbuffer.cpp.i
+
+rei/tools/ringbuffer/ringbuffer.s: rei/tools/ringbuffer/ringbuffer.cpp.s
+
+.PHONY : rei/tools/ringbuffer/ringbuffer.s
+
+# target to generate assembly for a file
+rei/tools/ringbuffer/ringbuffer.cpp.s:
+	$(MAKE) -f CMakeFiles/venthmi.dir/build.make CMakeFiles/venthmi.dir/rei/tools/ringbuffer/ringbuffer.cpp.s
+.PHONY : rei/tools/ringbuffer/ringbuffer.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... venthmi"
 	@echo "... edit_cache"
+	@echo "... rei/hard/serial/serial.o"
+	@echo "... rei/hard/serial/serial.i"
+	@echo "... rei/hard/serial/serial.s"
+	@echo "... rei/tools/ringbuffer/ringbuffer.o"
+	@echo "... rei/tools/ringbuffer/ringbuffer.i"
+	@echo "... rei/tools/ringbuffer/ringbuffer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

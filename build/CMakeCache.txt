@@ -180,6 +180,12 @@ MyCppApp_BINARY_DIR:STATIC=/home/rumi/space/venthmi/build
 //Value Computed by CMake
 MyCppApp_SOURCE_DIR:STATIC=/home/rumi/space/venthmi
 
+//Value Computed by CMake
+venthmi_BINARY_DIR:STATIC=/home/rumi/space/venthmi/build
+
+//Value Computed by CMake
+venthmi_SOURCE_DIR:STATIC=/home/rumi/space/venthmi
+
 
 ########################
 # INTERNAL cache entries
