@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/venthmi.dir/src/main.cpp.o  -o venthmi 

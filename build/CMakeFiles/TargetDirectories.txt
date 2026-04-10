@@ -1,0 +1,3 @@
+/home/rumi/space/venthmi/build/CMakeFiles/rebuild_cache.dir
+/home/rumi/space/venthmi/build/CMakeFiles/venthmi.dir
+/home/rumi/space/venthmi/build/CMakeFiles/edit_cache.dir
